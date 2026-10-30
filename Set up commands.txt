@@ -1,0 +1,12 @@
+cd "C:\Users\iro08\OneDrive\Documents\School\Fall Semester 2026\CPT_S 421\todo-prototype"
+
+http://localhost:5173
+
+to run the app once in the directory:
+
+docker compose exec db psql -U postgres -d tododb
+
+Once in postgres, run: 
+
+SELECT * FROM tasks; to display database contents.
+
